@@ -1,0 +1,18 @@
+.resizable {
+  border: 1px dotted black;
+  display: block !important;
+  position: relative;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.resizable-icon {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  cursor: se-resize;
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
